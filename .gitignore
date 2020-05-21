@@ -1,0 +1,12 @@
+#ignore all
+*
+
+#unignore file with ext
+!*.*
+
+#unignore folder
+!*/
+
+#ignore ouput files
+*.o
+*.out
