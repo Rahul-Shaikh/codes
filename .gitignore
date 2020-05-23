@@ -10,3 +10,7 @@
 #ignore ouput files
 *.o
 *.out
+
+.DS_Store
+
+.swp
