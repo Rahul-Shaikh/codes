@@ -21,7 +21,7 @@ class Graph {
   void addEdge(int u, int v, int w) {
     adj[u].push_back(make_pair(w, v));  // weight is in the first part as
                                         // default comparison is done by first
-    adj[v].push_back(make_pair(w, v));
+    adj[v].push_back(make_pair(w, u));
   }
 
   void shortestDistance(int s);
